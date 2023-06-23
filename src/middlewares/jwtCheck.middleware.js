@@ -10,7 +10,7 @@ const jwtCheck = expressJwt({
         cache: true,
         rateLimit: true,
         jwksRequestsPerMinute: 5,
-        jwksUri: `https://dev-cpw4mqjs3kzelwvn.us.auth0.com/.well-known/jwks.json`
+        jwksUri: `https://dev-v4sipxvg2hvv7b8p.eu.auth0.com/.well-known/jwks.json`
     }),
     audience: audience,
     issuer: issuer,
